@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bookunion">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity_user_developers"></activity>
+        <activity android:name=".activity_user_details" />
+        <activity android:name=".activity_booklist_user" />
+        <activity android:name=".activity_buy_books" />
+        <activity android:name=".activity_free_book" />
+        <activity android:name=".activity_type_select" />
+        <activity android:name=".activity_others" />
+        <activity android:name=".activity_academic" />
+        <activity android:name=".activity_thriller" />
+        <activity android:name=".activity_biography" />
+        <activity android:name=".activity_poetry" />
+        <activity android:name=".activity_novel" />
+        <activity android:name=".activity_fiction" />
+        <activity android:name=".activity_genre_select" />
+        <activity android:name=".user_registration_2" />
+        <activity android:name=".activity_sharing_type_search" />
+        <activity android:name=".activity_genre_search" />
+        <activity android:name=".activity_general_search" />
+        <activity android:name=".activity_book_details" />
+        <activity android:name=".activity_book_list" />
+        <activity android:name=".activity_add_book" />
+        <activity android:name=".activity_user_info_developers" />
+        <activity android:name=".activity_user_settings" />
+        <activity android:name=".activity_user_search" />
+        <activity android:name=".activity_user_profile" />
+        <activity android:name=".welcome_activity" />
+        <activity android:name=".user_registration_activity" />
+        <activity android:name=".log_in_activity" />
+        <activity android:name=".animated_splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

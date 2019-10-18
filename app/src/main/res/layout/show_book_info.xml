@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0CF1F3F3"
+    android:padding="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="20dp">
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+
+                    android:background="@drawable/sample_image_book"
+                    />
+
+            </LinearLayout>
+
+            <TableRow>
+
+
+
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Book title: "
+                    android:gravity="left"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#0A0A0A"
+                    android:gravity="left"
+                    android:text="The Great Gatsby"
+                    android:textCursorDrawable="@null"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Author: "
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:backgroundTint="#0A0A0A"
+                    android:textSize="20dp"
+                    android:text="F. Scott Fitzgerald"
+                    android:textCursorDrawable="@null"
+                    android:layout_marginBottom="10dp"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Language: "
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#0A0A0A"
+                    android:gravity="left"
+                    android:text="English"
+                    android:textSize="20dp"
+                    android:textCursorDrawable="@null"
+                    android:layout_marginBottom="10dp"
+                    />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Genre: "
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#0A0A0A"
+                    android:textCursorDrawable="@null"
+                    android:textSize="20dp"
+                    android:gravity="left"
+                    android:layout_marginBottom="10dp"
+                    android:text="Novel"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Notes: "
+                    android:gravity="top"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:minLines="2"
+                    android:layout_marginBottom="50dp"
+                    android:backgroundTint="#0F0F0F"
+                    android:textCursorDrawable="@null"
+                    android:textSize="20dp"
+                    android:text="*notes on the great gatsby"
+
+                    />
+            </TableRow>
+
+
+
+            <TableRow>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Sharing for: "
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:text="Free"
+                    android:textSize="20dp">
+
+                </TextView>
+            </TableRow>
+
+            <Button
+                android:id="@+id/done_button_add_book"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0A0A0A"
+                android:text="CONTACT OWNER"
+                android:textColor="#FFF"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="50dp"/>
+
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

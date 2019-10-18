@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_user_developers"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="30dp"
+            android:text="About Book Union"
+            android:gravity="center"
+            android:background="#000"
+            android:textColor="#FFF">
+        </TextView>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Book Union app was developed with the goal of sharing ones beloved books with other interested readers."
+            >
+        </TextView>
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Often we have lots of books that we've read, sometimes twice or more times. And then we don't read them at all. They remain in our bookshelves under dust. We can let it be there, or we can share these books with other readers out there. In this way, not only sharing happens, there is a high chance of getting linked up with other readers. They might share their precious books with you. Who knows? ">
+
+        </TextView>
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="This android app has been developed in CSE 2200 course, Software Development 3, in Spring 2019 semester, Department of CSE, AUST.">
+
+        </TextView>
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="If any suggestions for improvements, or want to get in touch with the developers, you can contact in the link below :) ">
+
+        </TextView>
+
+
+<LinearLayout
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="30dp"
+    >
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp"
+        >
+
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/me_pic">
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink= "all"
+            android:clickable="true"
+            android:text="abrarrafid123@gmail.com"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/farhan">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink= "all"
+            android:clickable="true"
+            android:text="sharukh75hasan@gmail.com"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

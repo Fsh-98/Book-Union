@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "298937973032",
+    "firebase_url": "https://book-union.firebaseio.com",
+    "project_id": "book-union",
+    "storage_bucket": "book-union.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298937973032:android:e7d7fe5f0d0098d986381d",
+        "android_client_info": {
+          "package_name": "com.example.bookunion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298937973032-res9re2euaj3fqpg7v02r3lnsmfptmik.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bookunion",
+            "certificate_hash": "8e585410e8e95b110ca2341a5ae50fac5eb7ac48"
+          }
+        },
+        {
+          "client_id": "298937973032-fnil5h8t6npmpfdo6vkajlfhtir6c82i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWzOnhVkfkzGlRM45qfw5aKOKA38wnuAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298937973032-fnil5h8t6npmpfdo6vkajlfhtir6c82i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/listed_book_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="book name"
+                android:textSize="50dp"
+                android:gravity="center">
+            </TextView>
+            <TextView
+                android:id="@+id/listed_author_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="author name"
+                android:textSize="30dp"
+                android:gravity="center">
+            </TextView>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

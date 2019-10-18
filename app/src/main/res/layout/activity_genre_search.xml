@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_genre_search"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        android:padding="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose What You Like!"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:layout_marginBottom="20dp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/fiction_b"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:onClick="fictionClicked"
+            android:text="Fiction">
+
+        </Button>
+
+        <Button
+            android:id="@+id/novel_b"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:onClick="novelClicked"
+            android:text="Novel">
+
+        </Button>
+
+        <Button
+            android:id="@+id/poetry_b"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:onClick="poetryClicked"
+            android:text="Poetry">
+
+        </Button>
+
+        <Button
+            android:id="@+id/bio_b"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:onClick="biographyClicked"
+            android:text="Biography">
+
+        </Button>
+
+        <Button
+            android:id="@+id/thrill_b"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:onClick="thrillerClicked"
+            android:text="Thriller">
+
+        </Button>
+
+        <Button
+            android:id="@+id/mystery_b"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:onClick="mysteryClicked"
+            android:text="Academic">
+
+        </Button>
+
+        <Button
+            android:id="@+id/others_b"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:onClick="othersClicked"
+            android:text="Others">
+
+        </Button>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

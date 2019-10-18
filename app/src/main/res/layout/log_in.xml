@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/books_background"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:text="Log In"
+            android:textAlignment="center"
+            android:textSize="70sp"
+            android:layout_marginBottom="30dp"/>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="30dp">
+            <TableRow>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="User email: "
+                    android:textSize="20dp"
+                    android:textColor="#070707">
+
+                </TextView>
+
+                <EditText
+                    android:id="@+id/user_EmailLogin"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+
+                    android:textColor="#070707"
+                    android:backgroundTint="#FC262627"
+                    android:textCursorDrawable="@null"
+
+
+                    />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Password: "
+                    android:textSize="20dp"
+                    android:textColor="#070707">
+
+                </TextView>
+
+                <EditText
+                    android:id="@+id/user_PasswordLogin"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:backgroundTint="#FC262627"
+                    android:inputType="textPassword"
+                    android:textCursorDrawable="@null"
+                    />
+            </TableRow>
+
+        </TableLayout>
+
+<TextView
+    android:id="@+id/forgotPassword"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:textSize="20dp"
+    android:text="forgot password? click here to reset">
+</TextView>
+
+        <Button
+            android:id="@+id/user_buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:padding="5dp"
+            android:clickable="true"
+            android:layout_marginTop="20dp"
+            android:focusable="true"
+            android:background="#0C0C0C"
+            android:textColor="#FFF"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="don't have an account?"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#181717"
+            />
+
+        <Button
+            android:id="@+id/register_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textAllCaps="false"
+            android:padding="5dp"
+            android:clickable="true"
+            android:layout_marginTop="10dp"
+            android:focusable="true"
+            android:background="#0C0C0C"
+            android:textColor="#FFF"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="or"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#181717"
+            android:layout_marginBottom="10dp">
+
+        </TextView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/google_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"/>
+
+
+</LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="all copyrights preserved 2019"
+            android:textAlignment="center"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

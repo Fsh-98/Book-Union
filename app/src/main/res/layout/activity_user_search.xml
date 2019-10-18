@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_user_profile"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:background="#000">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BOOK UNION"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textColor="#FFF"
+            >
+
+        </TextView>
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:gravity="center">
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:gravity="center">
+
+           <Button
+               android:layout_width="150dp"
+               android:layout_height="100dp"
+               android:layout_margin="30dp"
+               android:background="#000"
+               android:onClick="general_search_button_clicked"
+               android:text="All Books"
+               android:textColor="#FFF">
+
+           </Button>
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:gravity="center">
+
+           <Button
+               android:layout_width="150dp"
+               android:layout_height="100dp"
+               android:layout_margin="30dp"
+               android:background="#000"
+               android:onClick="genre_button_clicked"
+               android:text="Books through Genre"
+               android:textColor="#FFF">
+
+           </Button>
+       </LinearLayout>
+
+       <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:gravity="center">
+
+           <Button
+               android:layout_width="150dp"
+               android:layout_height="100dp"
+               android:layout_margin="30dp"
+               android:background="#000"
+               android:onClick="sharing_type_button_clicked"
+               android:text="Books through sharing type"
+               android:textColor="#FFF">
+
+           </Button>
+
+   </LinearLayout>
+
+
+
+
+   </LinearLayout>
+
+
+
+
+</LinearLayout>

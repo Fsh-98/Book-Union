@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0CF1F3F3"
+    android:padding="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        <TableRow>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Book picture: "/>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/book_pic"/>
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book title: "
+                android:gravity="left"/>
+
+            <EditText
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:backgroundTint="#0A0A0A"
+                android:textCursorDrawable="@null"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Author name: "/>
+
+            <EditText
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:backgroundTint="#0A0A0A"
+                android:textCursorDrawable="@null"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Language: "/>
+
+            <EditText
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#0A0A0A"
+                android:gravity="left"
+                android:textCursorDrawable="@null"
+                />
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Genre: "/>
+
+            <EditText
+               android:layout_width="240dp"
+               android:layout_height="wrap_content"
+               android:backgroundTint="#0A0A0A"
+              android:textCursorDrawable="@null"
+                android:gravity="left"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Notes on the book: "
+                android:gravity="top"/>
+
+            <EditText
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:minLines="1"
+                android:layout_marginBottom="50dp"
+                android:backgroundTint="#0F0F0F"
+                android:textCursorDrawable="@null"/>
+        </TableRow>
+
+
+
+        <TableRow>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Sharing condition:"/>
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Free"
+                        android:buttonTint="#0A0A0A"/>
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="On sale"
+                        android:buttonTint="#0A0A0A"/>
+                </RadioGroup>
+        </TableRow>
+
+        <Button
+            android:id="@+id/done_button_add_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0A0A0A"
+            android:text="DONE"
+            android:textColor="#FFF"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"/>
+
+    </TableLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add_book"
+    android:id="@+id/fragment_add_book"
+    android:background="#FFF"
+    android:padding="10dp">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#0CF1F3F3"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TableRow>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Book picture: "/>
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginRight="50dp"
+                        android:background="@drawable/book_pic"/>
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Book title: "
+                        android:gravity="left"/>
+
+
+                    <EditText
+                        android:id="@+id/book_name"
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#0A0A0A"
+                        android:gravity="left"
+                        android:textCursorDrawable="@null" />
+
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Author name: "/>
+
+                    <EditText
+                        android:id="@+id/book_author"
+                        android:layout_width="240dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:backgroundTint="#0A0A0A"
+                        android:textCursorDrawable="@null"/>
+
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Language: "/>
+
+                    <EditText
+                        android:id="@+id/book_language"
+                        android:layout_width="240dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#0A0A0A"
+                        android:gravity="left"
+                        android:textCursorDrawable="@null"
+                        />
+
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Genre: "/>
+
+                    <Spinner
+                        android:id = "@+id/spinner"
+                        android:layout_width = "wrap_content"
+                        android:layout_height = "wrap_content"
+                        android:prompt = "@string/app_name"
+                        />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Notes on the book: "
+                        android:gravity="top"/>
+
+                    <EditText
+                        android:id="@+id/book_notes"
+                        android:layout_width="240dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="textMultiLine"
+                        android:minLines="1"
+                        android:layout_marginBottom="50dp"
+                        android:backgroundTint="#0F0F0F"
+                        android:textCursorDrawable="@null"/>
+                </TableRow>
+
+
+
+                <TableRow>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Sharing condition:"/>
+
+                    <RadioGroup
+                        android:id="@+id/radio_buttton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/rb_free"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Free"
+                            android:buttonTint="#0A0A0A"/>
+
+                        <RadioButton
+                            android:id="@+id/rb_sale"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="On sale"
+                            android:buttonTint="#0A0A0A"/>
+                    </RadioGroup>
+                </TableRow>
+
+                <Button
+                    android:id="@+id/done_button_add_book"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="#0A0A0A"
+                    android:onClick="done_button_clicked"
+                    android:text="DONE"
+                    android:textColor="#FFF" />
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_book_details"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#000"
+            android:layout_marginBottom="30dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Owner details"
+                android:textSize="30dp"
+                android:textColor="#FFF"
+                android:gravity="center">
+
+            </TextView>
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="356dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="left"
+                    android:text="Name: "
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/details_book_name"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#0A0A0A"
+                    android:gravity="left"
+                    android:text=""
+                    android:textCursorDrawable="@null"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:text="Address: "
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/details_book_author"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#0A0A0A"
+                    android:gravity="left"
+                    android:text=""
+                    android:textCursorDrawable="@null"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:text="E-mail: "
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/details_book_language"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#0A0A0A"
+                    android:gravity="left"
+                    android:text=""
+                    android:textCursorDrawable="@null"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:text="Mobile: "
+                    android:textSize="20dp"
+                    />
+
+                <TextView
+                    android:id="@+id/phoneField"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#0A0A0A"
+                    android:gravity="left"
+                    android:text=""
+                    android:textCursorDrawable="@null"
+                    android:textSize="20dp" />
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:foreground="@drawable/ic_call"
+                    android:background="#000">
+
+                </ImageButton>
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_book_details"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#000"
+            android:layout_marginBottom="30dp"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Book details"
+                android:textSize="30dp"
+                android:textColor="#FFF"
+                android:gravity="center">
+
+            </TextView>
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Book title: "
+                    android:gravity="left"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:id="@+id/details_book_name"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#0A0A0A"
+                    android:gravity="left"
+                    android:text=""
+                    android:textCursorDrawable="@null"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Author name: "
+                    android:textSize="20dp"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:text=""
+                    android:id="@+id/details_book_author"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:backgroundTint="#0A0A0A"
+                    android:textCursorDrawable="@null"
+                    android:textSize="20dp"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Language: "
+                    android:textSize="20dp"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:text=""
+                    android:id="@+id/details_book_language"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#0A0A0A"
+                    android:gravity="left"
+                    android:textCursorDrawable="@null"
+                    android:textSize="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Genre: "
+                    android:textSize="20dp"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:text=""
+                    android:id="@+id/details_book_genre"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#0A0A0A"
+                    android:textCursorDrawable="@null"
+                    android:textSize="20dp"
+                    android:gravity="left"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Notes on book: "
+                    android:gravity="top"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:text=""
+                    android:id="@+id/details_book_notes"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:minLines="1"
+                    android:layout_marginBottom="50dp"
+                    android:backgroundTint="#0F0F0F"
+                    android:textCursorDrawable="@null"
+                    android:textSize="20dp"/>
+            </TableRow>
+
+
+        </TableLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="30dp">
+
+            <Button
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#050505"
+                android:onClick="owner_details_clicked"
+                android:text="Contact Owner"
+                android:textColor="#FFF">
+
+            </Button>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

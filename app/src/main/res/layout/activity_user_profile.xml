@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_user_profile"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:background="#000">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BOOK UNION"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textColor="#FFF"
+            >
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_weight=".5"
+        >
+
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_person_black_24dp"
+            android:layout_marginRight="50dp">
+
+        </Button>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/ic_search_black_24dp"
+            android:onClick="search_button_clicked"></Button>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/ic_settings_black_24dp"
+            android:onClick="settings_clicked">
+
+        </Button>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_insert_emoticon_black_24dp"
+            android:onClick="senti_clicked">
+
+        </Button>
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="30dp"
+    android:paddingBottom="30dp"
+    android:layout_weight="3">
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:gravity="center"
+       >
+       <Button
+           android:layout_width="160dp"
+           android:layout_height="200dp"
+           android:layout_margin="10dp"
+           android:background="#000"
+           android:foreground="@drawable/ic_add_box_black_24dp"
+           android:onClick="add_book_clicked">
+       </Button>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Add Book"
+           android:textSize="25dp">
+
+       </TextView>
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:background="#000"
+            android:foreground="@drawable/ic_view_list_black_24dp"
+            android:onClick="book_list_clicked"></Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book List"
+            android:textSize="25dp">
+
+        </TextView>
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+</LinearLayout>
